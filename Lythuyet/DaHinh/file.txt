@@ -1,0 +1,16 @@
+- Tính đa hình cho phép một phương thức có các tác 
+  động khác nhau trên nhiều loại đối tượng khác nhau.
+- Đối tượng sẽ thể hiện đúng hành vi tính chất của đối tượng mà nó trỏ (gán) đến
+- Nếu lớp con có một phương thức riêng mà lớp cha không có, ta cần chuyển kiểu downcasting để sử dụng lớp con
+- Toán tử <instanceof> : kiểm tra kiểu của đối tượng (trả về true hoặc false)
+- lớp final là lớp kh cho kết thừa: chỉ cần thêm final phía trước class
+- @Override là chú thích khi lớp con có 1 phương thức giống với lớp cha
+<Lớp lồng>
+- lớp lồng(nested class): lớp trong lớp  (outer class): lớp lồng có khả năng truy cập vào các thành phần của lớp ngoài
+- Lớp lồng có thể ẩn với các lớp khác(private) ,nếu lớp lồng là public thì có thể được các lớp khác truy xuất
+  <outerClass>.<nestedClass>
+- lớp lồng mặc định là non-static nhưng nếu có static vào thì có thể truy xuất mà kh cần phụ thuộc
+vào đối tượng của outerClass
+vd: non-static:  A a = new A();
+                 A.B b = a.new B()
+    static: A.B b = new A.B()

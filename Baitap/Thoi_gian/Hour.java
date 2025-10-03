@@ -1,4 +1,4 @@
-package Thoi_gian;
+package Baitap.Thoi_gian;
 import java.util.Scanner;
 
 public class Hour {

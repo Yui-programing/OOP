@@ -1,11 +1,15 @@
-package Thoi_gian;
+package Baitap.Thoi_gian;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.Scanner;
 
 public class Day {
     private int day, month, year;
-
+    LocalDate today = LocalDate.now();
     public Day() {
-        day = month = year = 0;
+         day = today.getDayOfMonth();
+         month = today.getMonthValue();
+         year = today.getYear();
     }
      public Day(int day, int month, int year) {
         this.day = day;

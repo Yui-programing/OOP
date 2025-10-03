@@ -1,0 +1,9 @@
+- Hàm trừu tượng là hàm kh có thực thi nghĩa là chỉ khai báo mà kh làm gì cả
+            abstract <kiểu> <tên hàm>();
+- lớp trừu tượng là lớp không có đối tượng(không tạo đối tượng),nó chỉ dùng để cho các
+lớp khác kế thừa từ nó 
+- lớp trừu tượng có ít nhất một hàm trừu tượng, các hàm trừu tượng này sẽ được thực thi ở lớp dẫn xuất
+- không thể tạo thể hiện(đối tượng) của lớp trừu tượng
+            abstract <thuộc tính truy xuất> class <name_Class>{}    
+- Lớp con kế thừa từ lớp abstract thì buộc phải @Override(hoàn thiện) lại phương thức abstract của lớp cha
+nếu không thì lớp con buộc phải là abstract class để tiếp tục 

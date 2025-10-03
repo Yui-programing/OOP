@@ -1,4 +1,4 @@
-package Phan_so;
+package Baitap.Phan_so;
 import java.util.Scanner;
 public class Phanso {
     Scanner sc = new Scanner(System.in);
